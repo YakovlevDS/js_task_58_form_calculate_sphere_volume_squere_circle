@@ -3,18 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Volume of a Sphere
+    <title>Volume of a Sphere and Squere of Circle
     </title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-<p>Input radius value and get the volume of a sphere.</p>
-<form action="" method="post" id="MyForm">
-<label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
-<label for="volume">Volume</label><input type="text" name="volume" id="volume">
-<input type="submit" value="Calculate" id="submit">    </form>
+    <div class="wrapper">
+      <p>Input radius value and get the volume of a sphere and squere of Circle</p>
+      <hr>
+      <div class="input_block">
+<label for="radius">Radius of Sphere</label>
+<input type="text" name="radius" id="radius" value=""  autocomplete="off" required>
+
+<input type="button" value="Calculate Volume" id="calcVolume">
+<br>
+<hr>
+<label for="volume">Volume of Sphere</label>
+<input type="text" name="volume" id="volume" value="0"  >
+
+<input type="button" value="Calculate Squere" id="calcSquere">
+<br>
+<hr>
+<label for="squere">Squere of Circle</label>
+<input type="text" name="squere" id="squere" value="0" >
+    </div>
+    </div>
+
+
 
     <script src="app.js"></script>
 
