@@ -3,37 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Volume of a Sphere and Squere of Circle
-    </title>
+    <title>Volume of a Sphere and Squere of Circle</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <div class="wrapper">
-      <p>Input radius value and get the volume of a sphere and squere of Circle</p>
-      <hr>
+      <p>
+        Input radius value and get the volume of a sphere and squere of Circle
+      </p>
+      <hr />
       <div class="input_block">
-<label for="radius">Radius of Sphere</label>
-<input type="text" name="radius" id="radius" value=""  autocomplete="off" required>
-
-<input type="button" value="Calculate Volume" id="calcVolume">
-<br>
-<hr>
-<label for="volume">Volume of Sphere</label>
-<input type="text" name="volume" id="volume" value="0"  >
-
-<input type="button" value="Calculate Squere" id="calcSquere">
-<br>
-<hr>
-<label for="squere">Squere of Circle</label>
-<input type="text" name="squere" id="squere" value="0" >
+        <div class="input">
+          <label for="radius">Radius of Sphere</label>
+          <input
+            type="text"
+            name="radius"
+            id="radius"
+            value=""
+            autocomplete="off"
+            required
+          />
+          
+        </div>
+        <hr />
+        <div class="volume">
+          <input type="button" class="btn" value="Calculate Volume" id="calcVolume" />
+          <br />
+          <label for="volume">Volume of Sphere</label>
+          <input type="text" name="volume" id="volume" value="0" />
+          
+        </div>
+        <hr />
+        <div class="squere">
+          <input type="button"class="btn" value="Calculate Squere" id="calcSquere" />
+          <br />
+          <label for="squere">Squere of Circle</label>
+          <input type="text" name="squere" id="squere" value="0" />
+        </div>
+      </div>
     </div>
-    </div>
-
-
 
     <script src="app.js"></script>
-
   </body>
 </html>
